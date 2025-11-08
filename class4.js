@@ -22,9 +22,9 @@ const canAccess = currentUserRole.some((role) =>
 // const arr = Array.from({ length : 5}, (_, i) => i); console.log(arr) output : [ 0, 1, 2, 3, 4 ]
 // const arr = Array.from([1, 2, 3, 4, 5], (value, i) => value * value); console.log(arr)
 
-const range = (start, stop, step) =>
+const ranges = (start, stop, step) =>
     Array.from(
         { length : Math.ceil((stop - start) / step)},
         (_,i)=> start + i * step
     );
-console.log(range(0, 11, 1));
+console.log(ranges(0, 11, 1));
