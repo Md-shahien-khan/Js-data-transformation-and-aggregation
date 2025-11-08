@@ -55,7 +55,3 @@ const tagsFromPosts = [
 
 const filterTags = [...new Set(tagsFromPosts.flat())]; // if u want to see everything in one array
 console.log(filterTags); //[ 'JavaScript', 'react', 'css', 'Node', 'Express', 'Css', 'html' ]
-
-// same
-const currentUserRole = ["user", "editor"];
-const featureAccessRole = ["admin", "Manager"]
